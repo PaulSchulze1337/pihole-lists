@@ -1,5 +1,6 @@
-# Title: My personal blacklist
-#
-# ===============================================================
-0.0.0.0 temu.com
-0.0.0.0 alibaba.com
+[Adblock Plus]
+! Title: My personal blacklist
+!
+! ===============================================================
+||temu.com^
+||alibaba.com^
