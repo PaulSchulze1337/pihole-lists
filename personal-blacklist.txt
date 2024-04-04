@@ -4,3 +4,6 @@
 ! ===============================================================
 ||temu.com^
 ||alibaba.com^
+||alidnc.com^
+||pinterest.com^
+||pinterest.de^
