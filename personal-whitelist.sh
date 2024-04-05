@@ -12,6 +12,8 @@ pihole -w -nr  archive.org
 pihole -w -nr  kleinanzeigen.de
 pihole -w -nr  kachelmannwetter.com
 pihole -w -nr  self.events.data.microsoft.com
+# dynamic IP
+pihole -w -nr  checkip.dyndns.org
 pihole -w -nr  ddns.net
 # Ebay
 pihole -w -nr  ebay.de ebaystatic.com
