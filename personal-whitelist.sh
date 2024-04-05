@@ -4,7 +4,6 @@
 # -f (Attempt to add one or more domains to the whitelist and force pihole-FTL to reload:)
  
 pihole -w -nr  arc.msn.com
-pihole -w -nr  google.ru
 pihole -w -nr  duden.de
 pihole -w -nr  e-junkie.com
 pihole -w -nr  deskpi.com
@@ -12,6 +11,8 @@ pihole -w -nr  archive.org
 pihole -w -nr  kleinanzeigen.de
 pihole -w -nr  kachelmannwetter.com
 pihole -w -nr  self.events.data.microsoft.com
+# github
+pilehole -w -nr raw.githubusercontent.com github.com github.io
 # dynamic IP
 pihole -w -nr  checkip.dyndns.org
 pihole -w -nr  ddns.net

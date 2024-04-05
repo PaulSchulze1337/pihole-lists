@@ -34,4 +34,3 @@
 ||pinterest.pt^
 ||pinterest.ru^
 ||pinterest.se^
-||^(doh|dot|dns|rdns)[-.]
