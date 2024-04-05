@@ -1,0 +1,85 @@
+# This is my personal white list
+# usage just list one or more domains per line
+# domain.de
+# domain1.de domain2.de
+# Note: You can't use regex whitelist imports here.
+# empty lines will be ignored by the import script
+# #############################################################################
+
+arc.msn.com
+duden.de
+e-junkie.com
+deskpi.com
+archive.org
+kleinanzeigen.de
+kachelmannwetter.com
+self.events.data.microsoft.com
+
+# github
+pilehole -w -nr raw.githubusercontent.com github.com github.io
+
+# dynamic IP
+checkip.dyndns.org
+ddns.net
+
+# Ebay
+ebay.de ebaystatic.com
+
+# Vinted
+pihole -w -nr vinted.de vinted.net
+
+# Google Maps
+clients4.google.com clients2.google.com
+
+# YouTube
+s.youtube.com video-stats.l.google.com www.googleapis.com youtubei.googleapis.com oauthaccountmanager.googleapis.com
+
+# Drobbox
+dl.dropboxusercontent.com ns1.dropbox.com ns2.dropbox.com dl-debug.dropbox.com
+
+# Spotify
+spclient.wg.spotify.com apresolve.spotify.com api-tv.spotify.com
+
+# Microsoft: verify internet connection
+www.msftncsi.com www.msftconnecttest.com
+
+# Office 365
+outlook.office365.com products.office.com c.s-microsoft.com i.s-microsoft.com login.live.com login.microsoftonline.com officeclient.microsoft.com
+
+# Windows Store
+dl.delivery.mp.microsoft.com geo-prod.do.dsp.mp.microsoft.com displaycatalog.mp.microsoft.com
+
+# Windows Upate
+sls.update.microsoft.com.akadns.net fe3.delivery.dsp.mp.microsoft.com.nsatc.net tlu.dl.delivery.mp.microsoft.com
+
+# Microsoft Edge Update
+msedge.api.cdp.microsoft.com
+
+# Bing Maps
+dev.virtualearth.net ecn.dev.virtualearth.net t0.ssl.ak.dynamic.tiles.virtualearth.net t0.ssl.ak.tiles.virtualearth.net
+
+# Apple Music
+itunes.apple.com s.mzstatic.com
+
+# Apple ID
+appleid.apple.com
+
+# IOS Weather app
+gsp-ssl.ls.apple.com gsp-ssl.ls-apple.com.akadns.net
+
+# Mozilla Tracking Protection
+tracking-protection.cdn.mozilla.net
+
+# Reddid
+styles.redditmedia.com www.redditstatic.com reddit.map.fastly.net www.redditmedia.com reddit-uploaded-media.s3-accelerate.amazonaws.com
+
+# DPD
+tracking.dpd.de
+
+# Captive Portal Tests (they are needed to identify if a device is NOT behind a captive portal)
+connectivitycheck.android.com android.clients.google.com clients3.google.com connectivitycheck.gstatic.com
+msftncsi.com www.msftncsi.com ipv6.msftncsi.com
+captive.apple.com gsp1.apple.com www.apple.com www.appleiphonecell.com
+
+# Signal Messenger
+ud-chat.signal.org chat.signal.org storage.signal.org signal.org www.signal.org updates2.signal.org textsecure-service-whispersystems.org giphy-proxy-production.whispersystems.org cdn.signal.org whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com d83eunklitikj.cloudfront.net souqcdn.com cms.souqcdn.com api.directory.signal.org contentproxy.signal.org turn1.whispersystems.org
