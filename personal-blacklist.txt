@@ -34,3 +34,4 @@
 ||pinterest.pt^
 ||pinterest.ru^
 ||pinterest.se^
+||google.ru^

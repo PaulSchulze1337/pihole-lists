@@ -21,8 +21,8 @@ fi
 
 # first delete all existing whitelist entries.
 # This is done to avoid duplicates and to make sure that a removed domain does not stay in the whitelist
-echo "Deleting all existing whitelist entries"
-pihole -w -d
+echo "Deleting all existing whitelist entries..."
+pihole -w -q --nuke
 
 echo "Importing whitelist from file: $WHITE_LIST_FILE"
 while IFS= read -r line
@@ -35,31 +35,31 @@ do
     # ignore comments (lines starting with #)
     if [[ $line == \#* ]]; then
         # echo "Comment: $line"
-        echo "Comment: $line will be ignored."
+        echo "INFO: '$line' will be ignored."
         continue
     fi
 
     # ignore lines starting with http:// or https://
     if [[ $line == http://* ]] || [[ $line == https://* ]]; then
-        echo "URL: $line will be ignored."
+        echo "INFO: '$line' will be ignored."
         continue
     fi
 
     # ignore lines starting with www.
     if [[ $line == www.* ]]; then
-        echo "www: $line will be ignored."
+        echo "INFO: '$line' will be ignored."
         continue
     fi
 
     # ignore lines starting with a dot
     if [[ $line == .* ]]; then
-        echo "Dot: $line will be ignored."
+        echo "INFO: '$line' will be ignored."
         continue
     fi
 
     # add the domain to the whitelist without reloading pihole-FTL
 
-    #echo "Adding $line to whitelist"
+    #echo "INFO: Adding '$line' to whitelist"
 
     # first me make a dry run to see if the command is correct
     echo "pihole -w -nr $line"
