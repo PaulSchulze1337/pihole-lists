@@ -20,3 +20,7 @@ sudo chmod 550 ~/pihole-lists/importWhiteList.sh
 ~/pihole-lists/importWhiteList.sh personal-whitelist.txt
 ```
 
+# Update
+``` bash
+git -C ~/pihole-lists/ pull
+```

@@ -5,6 +5,7 @@
 # -w <Whitelist a domain>
 # -nr (Attempt to add one or more domains to the whitelist, but do not reload pihole-FTL)
 # -f (Attempt to add one or more domains to the whitelist and force pihole-FTL to reload:)
+# -q (quite mode - less possible output)
 
 # get white list file from optional argument
 WHITE_LIST_FILE=$1
@@ -34,43 +35,35 @@ do
 
     # ignore comments (lines starting with #)
     if [[ $line == \#* ]]; then
-        # echo "Comment: $line"
-        echo "INFO: '$line' will be ignored."
+        #echo "INFO: '$line' will be ignored."
         continue
     fi
 
     # ignore lines starting with http:// or https://
     if [[ $line == http://* ]] || [[ $line == https://* ]]; then
-        echo "INFO: '$line' will be ignored."
-        continue
-    fi
-
-    # ignore lines starting with www.
-    if [[ $line == www.* ]]; then
-        echo "INFO: '$line' will be ignored."
+        echo "INFO: '$line' will be ignored. Please provide domains without http/https!"
         continue
     fi
 
     # ignore lines starting with a dot
     if [[ $line == .* ]]; then
-        echo "INFO: '$line' will be ignored."
+        echo "INFO: '$line' will be ignored. Please provide domains without leading '.'"
         continue
     fi
 
-    # add the domain to the whitelist without reloading pihole-FTL
-
-    #echo "INFO: Adding '$line' to whitelist"
-
     # first me make a dry run to see if the command is correct
-    echo "pihole -w -nr $line"
-    # pihole -w -nr $line
+    #echo "pihole -w -nr $line"
+
+
+    # add current domain to white list without reload FTL engine
+    pihole -w -nr $line
 
 done < $WHITE_LIST_FILE
 echo "Importing done"
 
 # reload pihole-FTL to apply the changes
-echo "Reloading pihole-FTL"
-#pihole restartdns reload
+echo "Reloading pihole-FTL..."
+pihole restartdns reload
 
 
 
