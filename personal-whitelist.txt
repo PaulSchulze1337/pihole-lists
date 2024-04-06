@@ -1,5 +1,5 @@
 # This is my personal white list
-# usage just list one or more domains per line
+# usage: just list one or more domains per line
 # domain.de
 # domain1.de domain2.de
 # Note: You can't use regex whitelist imports here.

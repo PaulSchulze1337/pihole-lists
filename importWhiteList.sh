@@ -70,7 +70,7 @@ echo "Importing done"
 
 # reload pihole-FTL to apply the changes
 echo "Reloading pihole-FTL"
-pihole restartdns reload
+#pihole restartdns reload
 
 
 
