@@ -16,7 +16,7 @@ kachelmannwetter.com
 self.events.data.microsoft.com
 
 # github
-pilehole -w -nr raw.githubusercontent.com github.com github.io
+raw.githubusercontent.com github.com github.io
 
 # dynamic IP
 checkip.dyndns.org
