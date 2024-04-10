@@ -73,6 +73,9 @@ styles.redditmedia.com www.redditstatic.com reddit.map.fastly.net www.redditmedi
 # DPD
 tracking.dpd.de
 
+# Telekom VoIP
+tel.t-online.de stun.t-online.de
+
 # Captive Portal Tests (they are needed to identify if a device is NOT behind a captive portal)
 connectivitycheck.android.com android.clients.google.com clients3.google.com connectivitycheck.gstatic.com
 msftncsi.com www.msftncsi.com ipv6.msftncsi.com www.msftconnecttest.com
