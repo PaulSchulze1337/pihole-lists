@@ -35,5 +35,5 @@
 ||pinterest.ru^
 ||pinterest.se^
 ||google.ru^
-||events.gfe.nvidia.com
-||lightstep.kaizen.nvidia.com 
+||events.gfe.nvidia.com^
+||lightstep.kaizen.nvidia.com^ 
