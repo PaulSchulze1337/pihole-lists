@@ -1,0 +1,16 @@
+# This is my personal white list
+# usage: just list one or more domains with regex pattern inside quotation marks
+# '^example.com$' '.*\.example2.net'
+# Note: You can ONLY use regex import here.
+# Existing excat whitelist entries will not be deleted!
+# empty lines will be ignored by the import script
+# #############################################################################
+
+# Ebay / Kleinanzeigen / Auction platforms
+'(\.|^)ebay\.de$'
+'(\.|^)kleinanzeigen\.de$'
+'(\.|^)ebaystatic\.com$'
+'(\.|^)kachelmannwetter\.com$'
+
+# Dynamic DNS
+'(\.|^)ddns\.net$'

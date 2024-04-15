@@ -2,7 +2,8 @@
 # usage: just list one or more domains per line
 # domain.de
 # domain1.de domain2.de
-# Note: You can't use regex whitelist imports here.
+# Note: You can't use regex whitelist imports here. Existing regex whitelist
+# entries will not be deleted!
 # empty lines will be ignored by the import script
 # #############################################################################
 
@@ -11,22 +12,15 @@ duden.de
 e-junkie.com
 deskpi.com
 archive.org
-kleinanzeigen.de
-kachelmannwetter.com
-self.events.data.microsoft.com
 
 # github
 raw.githubusercontent.com github.com github.io
 
-# dynamic IP
+# dynamic IP / dynamic DNS
 checkip.dyndns.org
-ddns.net
-
-# Ebay
-ebay.de ebaystatic.com
 
 # Vinted
-pihole -w -nr vinted.de vinted.net
+vinted.de vinted.net
 
 # Google Maps
 clients4.google.com clients2.google.com
@@ -40,14 +34,25 @@ dl.dropboxusercontent.com ns1.dropbox.com ns2.dropbox.com dl-debug.dropbox.com
 # Spotify
 spclient.wg.spotify.com apresolve.spotify.com api-tv.spotify.com
 
+# For Microsoft Windows see: https://learn.microsoft.com/de-de/windows/privacy/manage-windows-11-endpoints for detailed information
 # Office 365
-outlook.office365.com products.office.com c.s-microsoft.com i.s-microsoft.com login.live.com login.microsoftonline.com officeclient.microsoft.com
+outlook.office365.com products.office.com c.s-microsoft.com i.s-microsoft.com login.live.com
+login.microsoftonline.com officeclient.microsoft.com self.events.data.microsoft.com www.office.com
+onecollector.cloudapp.aria nexusrules.officeapps.Live.com ocos-office365-s2s.msedge.net outlook.office365.com
+client-office365-tas.msedge.net
+v10.events.data.microsoft.com/onecollector/1.0/
+
+# Office Additional featues (ClipArt, etc.)
+hubblecontent.osi.office.net
 
 # Windows Store
 dl.delivery.mp.microsoft.com geo-prod.do.dsp.mp.microsoft.com displaycatalog.mp.microsoft.com
 
 # Windows Upate
 sls.update.microsoft.com.akadns.net fe3.delivery.dsp.mp.microsoft.com.nsatc.net tlu.dl.delivery.mp.microsoft.com
+
+# Windows Defender
+wdcp.microsoft.com definitionupdates.microsoft.com go.microsoft.com
 
 # Microsoft Edge Update
 msedge.api.cdp.microsoft.com
