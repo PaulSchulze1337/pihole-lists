@@ -89,8 +89,6 @@ https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/dnsmasq_big.txt
 https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/dnsmasq2_big.txt
 https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild_big.txt
 https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild2_big.txt
-
-https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/main/personal-blacklist.txt
 ```
 
 ## additional block lists
