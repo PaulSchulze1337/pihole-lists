@@ -1,0 +1,136 @@
+! Title: Apple Services Whitelist
+! Description: This list unblocks most common apple services
+! Source: https://support.apple.com/de-de/101555
+! Syntax: AdBlock
+! documentation for AdBlock: https://adblockplus.org/filter-cheatsheet
+! Number of entries: 690
+! Expires: undefined
+!
+! Rules for Top Level Domains
+@@||apple.com^$document
+@@||icloud.com^
+@@||mzstatic.com
+! Rules for device installation and activation
+@@||albert.apple.com^
+@@||captive.apple.com^
+@@||gs.apple.com^
+@@||humb.apple.com^
+@@||static.ips.apple.com^
+@@||sq-device.apple.com^
+@@||tbsc.apple.com^
+@@||time-ios.apple.com^
+@@||time.apple.com^
+@@||time-macos.apple.com^
+! rules for device management
+@@||push.apple.com^
+@@||deviceenrollment.apple.com^
+@@||deviceservices-external.apple.com^
+@@||identity.apple.com^
+@@||setup.icloud.com^
+@@||vpp.itunes.apple.com^
+@@||appattest.apple.com^
+@@||axm-servicediscovery.apple.com^
+@@||appleid.cdn-apple.com^
+@@||idmsa.apple.com^
+@@||itunes.apple.com^
+@@||mzstatic.com^
+@@||api.ent.apple.com^
+@@||api.edu.apple.com^
+! rules for buissness essentials
+@@||axm-adm-enroll.apple.com^
+@@||axm-adm-mdm.apple.com^
+@@||axm-adm-scep.apple.com^
+@@||axm-app.apple.com^
+@@||apple-mapkit.com^
+@@||icons.axm-usercontent-apple.com^
+! rules for class room and school work
+@@||s.mzstatic.com
+@@||play.itunes.apple.com
+! rules for software updates
+@@||appldnld.apple.com^
+@@||configuration.apple.com^
+@@||gdmf.apple.com^
+@@||gg.apple.com^
+@@||gs.apple.com^
+@@||ig.apple.com^
+@@||mesu.apple.com^
+@@||ns.itunes.apple.com^
+@@||oscdn.apple.com^
+@@||osrecovery.apple.com^
+@@||skl.apple.com^
+@@||swcdn.apple.com^
+@@||swdist.apple.com^
+@@||swdownload.apple.com^
+@@||swscan.apple.com^
+@@||updates-http.cdn-apple.com^
+@@||updates.cdn-apple.com^
+@@||xp.apple.com^
+@@||gdmf-ados.apple.com^
+@@||gsra.apple.com^
+@@||wkms-public.apple.com^
+@@||fcs-keys-pub-prod.cdn-apple.com^
+! rules apps and additional services
+@@||itunes.apple.com^
+@@||apps.apple.com^
+@@||ppq.apple.com^
+@@||api.apple-cloudkit.com^
+@@||appattest.apple.com^
+@@||apps-marketplace.apple.com^
+@@||token.safebrowsing.apple^
+@@||audiocontentdownload.apple.com^
+@@||devimages-cdn.apple.com^
+@@||download.developer.apple.com^
+@@||sylvan.apple.com^
+@@||gateway.icloud.com^
+! rules for mobile network provider  updates
+@@||appldnld.apple.com^
+@@||appldnld.apple.com.edgesuite.net^
+@@||itunes.com^
+@@||itunes.apple.com^
+@@||updates.cdn-apple.com^
+! content caching services
+@@||lcdn-registration.apple.com^
+@@||suconfig.apple.com^
+@@||xp-cdn.apple.com^
+@@||lcdn-locator.apple.com^
+@@||serverstatus.apple.com^
+! rules for apple diagnostics
+@@||diagassets.apple.com^
+! rules for validation of certificates
+@@||certs.apple.com^
+@@||crl.apple.com^
+@@||crl3.digicert.com^
+@@||crl4.digicert.com^
+@@||ocsp.apple.com^
+@@||ocsp.digicert.cn^
+@@||ocsp.digicert.com^
+@@||ocsp2.apple.com^
+@@||valid.apple.com^
+! rules for apple account services
+@@||account.apple.com^
+@@||appleid.cdn-apple.com^
+@@||idmsa.apple.com^
+@@||gsa.apple.com^
+! rules for iClound services
+@@||apple-cloudkit.com^
+@@||apple-livephotoskit.com^
+@@||cdn-apple.com^
+@@||gc.apple.com^
+@@||icloud.apple.com^
+@@||icloud-content.com^
+@@||iwork.apple.com^
+! rules for siri and search
+@@||guzzoni.apple.com^
+@@||smoot.apple.com^
+@@||apple-relay.apple.com^
+! rules for associated services
+@@||app-site-association.cdn-apple.com^
+@@||app-site-association.networking.apple^
+! rules for tap to pay services
+@@||pos-device.apple.com^
+@@||humb.apple.com^
+! rules for identity services
+@@||smp-device-content.apple.com^
+@@||idv.cdn-apple.com^
+@@||idv-prod1.apple.com^
+@@||humb.apple.com^
