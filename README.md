@@ -1,16 +1,16 @@
 # PiHole list
 Personal lists for PiHole
 
-## Whitelists
-- [apple_services_whitelist](whitelists/apple_services_whitelist)
-- [captive_portals_whitelist](whitelists/captive_portals_whitelist)
-- [mics_whitelist](whitelists/mics_whitelist)
+## Allow lists
+- [apple_services_whitelist](allowlists/apple_services_allowlist)
+- [captive_portals_whitelist](allowlists/captive_portals_allowlist)
+- [mics_whitelist](allowlists/mics_allowlist)
 
 
-## Blacklists
-[mics_blacklist](blacklists/mics_blacklist)
+## Block lists
+- [mics_blacklist](blocklists/mics_blocklist)
 
-## Recommended lists to add to PiHole
+## Recommended blocklist to add to PiHole
 ```
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/RPiList/specials/refs/heads/master/Blocklisten/Corona-Blocklist
