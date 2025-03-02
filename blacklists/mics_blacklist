@@ -1,0 +1,19 @@
+! Title: Blacklist for miscellaneous websites
+! Description: websites non grata
+! Syntax: AdBlock
+! documentation for AdBlock: https://adblockplus.org/filter-cheatsheet
+! Expires: undefined!
+!
+! top level
+||*.ru^
+!
+! pinterest related websites
+||*pinterest*^
+||pinterest.*^
+||pinterestcareers.com^
+||pinterestmail.com^
+!
+! shopping websites
+||temu.*^
+||alibaba.*^
+||alidnc.*^

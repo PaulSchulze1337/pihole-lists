@@ -1,0 +1,19 @@
+! Title: Captive Portals Whitelist.
+! Description: To identify if a device is behind a captive portal
+! Syntax: AdBlock
+! documentation for AdBlock: https://adblockplus.org/filter-cheatsheet
+! Number of entries:
+! Expires: undefined
+!
+@@||connectivitycheck.android.com^
+@@||android.clients.google.com^
+@@||clients3.google.com^
+@@||connectivitycheck.gstatic.com^
+@@||msftncsi.com^
+@@||www.msftncsi.com^
+@@||ipv6.msftncsi.com^
+@@||www.msftconnecttest.com^
+@@||captive.apple.com^
+@@||gsp1.apple.com^
+@@||www.apple.com^
+@@||www.appleiphonecell.com^

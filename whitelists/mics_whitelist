@@ -1,0 +1,78 @@
+! Title: Captive Portals Whitelist.
+! Description: Miscellaneous websites that should not be blocked, even if they are on a blacklist.
+! Syntax: AdBlock
+! documentation for AdBlock: https://adblockplus.org/filter-cheatsheet
+! Number of entries:
+! Expires: undefined
+!
+! dynamic dns services
+@@||checkip.dyndns.org^
+!
+! VoIP services
+@@||tel.t-online.de^
+@@||stun.t-online.de^
+!
+! VPN services
+@@||openvpn.net^
+! github related websites
+@@||raw.githubusercontent.com^
+@@||github.com^
+@@||github.io^
+!
+! shopping websites
+@@||ebay.de^
+@@||kleinanzeigen.de^
+@@||ebaystatic.de^
+@@||vinted.de^
+@@||vinted.net^
+!
+! google services
+@@||clients4.google.com^
+@@||clients2.google.com^
+@@||android.clients.google.com^
+@@||reminders-pa.googleapis.com^
+@@||firestore.googleapis.com^
+@@||gstaticadssl.l.google.com^
+@@||googleapis.l.google.com^
+@@||dl.google.com^
+@@||redirector.gvt1.com^
+!
+! youtube services
+@@||s.youtube.com^
+@@||video-stats.l.google.com^
+@@||www.googleapis.com^
+@@||youtubei.googleapis.com^
+@@||oauthaccountmanager.googleapis.com^
+!
+! microsoft services
+@@||www.msftncsi.com^
+@@||www.msftconnecttest.com^
+@@||outlook.office365.com^
+@@||products.office.com^
+@@||c.s-microsoft.com^
+@@||i.s-microsoft.com^
+@@||login.live.com^
+@@||login.microsoftonline.com^
+@@||dl.delivery.mp.microsoft.com^
+@@||geo-prod.do.dsp.mp.microsoft.com^
+@@||displaycatalog.mp.microsoft.com^
+@@||msedge.api.cdp.microsoft.com^
+@@||clientconfig.passport.net^
+@@||client-s.gateway.messenger.live.com^
+@@||arc.msn.com^
+@@||officeclient.microsoft.com^
+@@||dev.virtualearth.net^
+@@||ecn.dev.virtualearth.net^
+@@||t0.ssl.ak.dynamic.tiles.virtualearth.net^
+!
+! spotify services
+@@||spclient.wg.spotify.com^
+@@||apresolve.spotify.com^
+!
+! Dropbox services
+@@||dl.dropboxusercontent.com^
+@@||ns1.dropbox.com^
+@@||ns2.dropbox.com^
+! Misc websites
+
+
