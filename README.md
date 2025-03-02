@@ -10,7 +10,7 @@ Personal lists for PiHole
 ## Block lists
 - [mics_blacklist](blocklists/mics_blocklist)
 
-## Recommended blocklist to add to PiHole
+## Recommended block lists from external sources
 ```
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/RPiList/specials/refs/heads/master/Blocklisten/Corona-Blocklist
@@ -81,9 +81,6 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.vivo
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.oppo-realme.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt
 
-https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part1.txt
-https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part2.txt
-
 https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/abp_big.txt
 https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt
 https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/dnsmasq_big.txt
@@ -92,4 +89,11 @@ https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild_big.tx
 https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild2_big.txt
 
 https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/main/personal-blacklist.txt
+```
+
+## additional block lists
+Note: These needs a lot of system resources more than 500 MB of RAM is recommended
+```
+https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part1.txt
+https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part2.txt
 ```
