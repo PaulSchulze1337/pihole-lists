@@ -1,10 +1,12 @@
 # PiHole list
-Personal lists for PiHole
+
+Just a collection of useful lists for PiHole.
+
 
 ## Allow lists
-- [apple_services_whitelist](allowlists/apple_services_allowlist)
-- [captive_portals_whitelist](allowlists/captive_portals_allowlist)
-- [mics_whitelist](allowlists/mics_allowlist)
+- [apple_services_allowlist](allowlists/apple_services_allowlist)
+- [captive_portals_allowlist](allowlists/captive_portals_allowlist)
+- [mics_allowlist](allowlists/mics_allowlist)
 
 
 ## Block lists
