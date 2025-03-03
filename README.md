@@ -83,16 +83,11 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.vivo
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.oppo-realme.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt
 
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/abp_big.txt
 https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/dnsmasq_big.txt
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/dnsmasq2_big.txt
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild_big.txt
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild2_big.txt
 ```
 
 ## additional block lists
-Note: These needs a lot of system resources more than 500 MB of RAM is recommended
+Note: These needs a lot of system resources more than 500 MB of RAM is needed. 
 ```
 https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part1.txt
 https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part2.txt
