@@ -87,7 +87,7 @@ https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt
 ```
 
 ## additional block lists
-Note: These needs a lot of system resources more than 500 MB of RAM is needed. 
+Note: These needs a lot of system resources. More than 500 MB of RAM is needed.
 ```
 https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part1.txt
 https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part2.txt
