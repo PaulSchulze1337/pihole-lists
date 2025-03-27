@@ -1,8 +1,7 @@
-! Title: Whats App AllowList
-! Description: This list unblocks most common facebook services
+! Title: WhatsApp AllowList
+! Description: This list unblocks most common WhatsApp domains
 ! Syntax: AdBlock
 ! documentation for AdBlock: https://adblockplus.org/filter-cheatsheet
-! Number of entries:
 ! Expires: undefined
 !
  @@||account.whatsapp.com^

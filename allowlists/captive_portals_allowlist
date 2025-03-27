@@ -1,8 +1,7 @@
 ! Title: Captive Portals AllowList.
 ! Description: To identify if a device is behind a captive portal
 ! Syntax: AdBlock
-! documentation for AdBlock: https://adblockplus.org/filter-cheatsheet
-! Number of entries:
+! documentation for AdBlock: https://help.adblockplus.org/hc/en-us/articles/360062733293-How-to-write-filters
 ! Expires: undefined
 !
 @@||connectivitycheck.android.com^

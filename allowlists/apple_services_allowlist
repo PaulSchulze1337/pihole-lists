@@ -2,7 +2,7 @@
 ! Description: This list unblocks most common apple services
 ! Source: https://support.apple.com/de-de/101555
 ! Syntax: AdBlock
-! documentation for AdBlock: https://adblockplus.org/filter-cheatsheet
+! documentation for AdBlock: https://help.adblockplus.org/hc/en-us/articles/360062733293-How-to-write-filters
 ! Expires: undefined
 !
 ! Rules for Top Level Domains
@@ -133,3 +133,6 @@
 @@||idv.cdn-apple.com^
 @@||idv-prod1.apple.com^
 @@||humb.apple.com^
+! IOS Weather app
+@@||gsp-ssl.ls.apple.com^
+@@||gsp-ssl.ls-apple.com.akadns.net^

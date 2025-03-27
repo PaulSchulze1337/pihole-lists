@@ -2,17 +2,24 @@
 
 Just a collection of useful lists for PiHole.
 
-
 ## Allow lists
 - [apple_services_allowlist](allowlists/apple_services_allowlist)
 - [captive_portals_allowlist](allowlists/captive_portals_allowlist)
+- [facebook_allowlist](allowlists/facebook_allowlist)
 - [mics_allowlist](allowlists/mics_allowlist)
+- [whatsapp_allowlist](allowlists/whatsapp_allowlist)
 
 
 ## Block lists
 - [mics_blacklist](blocklists/mics_blocklist)
+- [tdl_additional_blocklist](blocklists/tdl_additional_blocklist)
+- [tdl_long_blocklist](blocklists/tdl_long_blocklist)
+- [tdl_short_blocklist](blocklists/tdl_short_blocklist)
 
-## Recommended block lists from external sources
+
+## Ready to use Pihole filter lists 
+
+### Block lists for general use
 ```
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/RPiList/specials/refs/heads/master/Blocklisten/Corona-Blocklist
@@ -83,12 +90,42 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.vivo
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.oppo-realme.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt
 
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt
-```
-
-## additional block lists
-Note: These needs a lot of system resources. More than 500 MB of RAM is needed.
-```
 https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part1.txt
 https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part2.txt
+
+https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/abp_big.txt
+https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt
+https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/dnsmasq_big.txt
+https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/dnsmasq2_big.txt
+https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild_big.txt
+https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild2_big.txt
+
+https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/refs/heads/main/blocklists/mics_blocklist
+https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/refs/heads/main/blocklists/tdl_short_blocklist
+https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/refs/heads/main/blocklists/tdl_additional_blocklist
+
+```
+
+### Block lists for case specific use
+```
+https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/refs/heads/main/blocklists/tdl_long_blocklist
+```
+
+---
+
+### Allow lists for general use
+Note: An Allow beats a Block. If a domain is in both lists, it will be allowed.
+```
+https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/refs/heads/main/allowlists/mics_allowlist
+https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/refs/heads/main/allowlists/captive_portals_allowlist
+
+```
+
+### Allow lists for case specific use
+Note: An Allow beats a Block. If a domain is in both lists, it will be allowed.
+```
+https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/refs/heads/main/allowlists/apple_services_allowlist
+
+https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/refs/heads/main/allowlists/facebook_allowlist
+https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/refs/heads/main/allowlists/whatsapp_allowlist
 ```

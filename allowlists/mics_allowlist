@@ -1,8 +1,7 @@
-! Title: Captive Portals AllowList.
+! Title: Misc AllowList.
 ! Description: Miscellaneous websites that should not be blocked, even if they are on a blacklist.
 ! Syntax: AdBlock
-! documentation for AdBlock: https://adblockplus.org/filter-cheatsheet
-! Number of entries:
+! documentation for AdBlock: https://help.adblockplus.org/hc/en-us/articles/360062733293-How-to-write-filters
 ! Expires: undefined
 !
 ! dynamic dns services
@@ -64,15 +63,22 @@
 @@||dev.virtualearth.net^
 @@||ecn.dev.virtualearth.net^
 @@||t0.ssl.ak.dynamic.tiles.virtualearth.net^
+@@||hubblecontent.osi.office.net^
+@@||sls.update.microsoft.com.akadns.net^
+@@||wdcp.microsoft.com^
+@@||definitionupdates.microsoft.com^
+@@||go.microsoft.com^
 !
 ! spotify services
 @@||spclient.wg.spotify.com^
 @@||apresolve.spotify.com^
+@@||api-tv.spotify.com^
 !
-! Dropbox services
+! dropbox services
 @@||dl.dropboxusercontent.com^
 @@||ns1.dropbox.com^
 @@||ns2.dropbox.com^
 ! Misc websites
-
-
+@@||e-junkie.com^
+@@||deskpi.com^
+@@||archive.org^
