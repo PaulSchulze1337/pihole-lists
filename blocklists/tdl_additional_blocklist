@@ -1,6 +1,6 @@
 ! Title: Blocklist for suspicious TLDs (non country code TLDs)
 ! Description: Suspicious TLDs that are not used by the majority of users.
-               May have multiple false positives, use with caution.
+!              May have multiple false positives, use with caution.
 ! Syntax: AdBlock
 ! documentation for AdBlock: https://help.adblockplus.org/hc/en-us/articles/360062733293-How-to-write-filters
 ! Expires: undefined!
@@ -49,7 +49,7 @@
 ||name^
 ||poker^
 ||porn^
-||.рус^
+||рус^
 ||review^
 ||rip^
 ||sex^
@@ -65,50 +65,3 @@
 ! language specific TLDs
 ||desi^
 ||shiksha^
-! Internationalized generic top-level domains
-||বাংলা^
-||भारत^
-||संगठन^
-||कॉम^
-||नेट^
-||닷컴^
-||닷넷^
-||คอม^
-! chinese characters
-||广东^
-||佛山^
-||在线^
-||中文网^
-||网址^
-||网站^
-||网络^
-||公司^
-||商城^
-||机构^
-||我爱你^
-||商标^
-||世界^
-||集团^
-||慈善^
-||八卦^
-||公益^
-||购物^
-||手机^
-||政府^
-! cyrillic characters
-||дети^
-||католик^
-||ком^
-||онлайн^
-||орг^
-||рус^
-||сайт^
-||москва^
-! japanese characters
-||みんな^
-||セール^
-||ファッション^
-||ストア^
-||ポイント^
-||ポイント^
-||コム^
