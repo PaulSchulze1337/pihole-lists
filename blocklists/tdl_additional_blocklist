@@ -1,0 +1,12 @@
+! Title: Blocklist for suspicious TLDs (non country code TLDs)
+! Description: Suspicious TLDs that are not used by the majority of users.
+! Syntax: AdBlock
+! documentation for AdBlock: https://help.adblockplus.org/hc/en-us/articles/360062733293-How-to-write-filters
+! Expires: undefined!
+! see: https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
+||xxx^
+||webcam^
+||cam^
+||porn^
+||sex^
+||adult^

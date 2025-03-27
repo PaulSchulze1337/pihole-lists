@@ -1,0 +1,8 @@
+! Title: Blocklist for top level domains (TLD), country code TLDs only, very short version
+! Description: Block top level domains (TLD) that are not used by the majority of users.
+! Syntax: AdBlockPlus
+! see: https://github.com/pi-hole/pi-hole/pull/5240
+! see: https://en.wikipedia.org/wiki/Country_code_top-level_domain
+! Expires: undefined!
+||cn^
+||ru^
