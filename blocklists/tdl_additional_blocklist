@@ -5,6 +5,25 @@
 ! documentation for AdBlock: https://help.adblockplus.org/hc/en-us/articles/360062733293-How-to-write-filters
 ! Expires: undefined!
 ! see: https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
+!
+! special-use domains
+||example^
+||corp^
+||home^
+||internal^
+||intranet^
+||invalid^
+||lan^
+||private^
+||onion^
+||test^
+! BlockChain domains
+||eth^
+||crypto^
+||zil^
+||bit^
+||xlm^
+!
 ||adult^
 ||autos^
 ||best^
@@ -29,6 +48,7 @@
 ||name^
 ||poker^
 ||porn^
+||.рус^
 ||review^
 ||rip^
 ||sex^
@@ -41,41 +61,53 @@
 ||voto^
 ||webcam^
 ||xxx^
-||.在线^
-||.中文网^
-||.网址^
-||.网站^
-||.网络^
-||.公司^
-||.商城^
-||.机构^
-||.我爱你^
-||.商标^
-||.世界^
-||.集团^
-||.慈善^
-||.八卦^
-||.公益^
-||.购物^
-||.手机^
-||.政府^
-||.дети
-||.католик
-||.ком
-||.онлайн
-||.орг
-||.рус
-||.сайт
-
-
-
-
-
-
-
-
-
-
-
-
-
+! language specific TLDs
+||desi^
+||shiksha^
+! Internationalized generic top-level domains
+||বাংলা^
+||भारत^
+||संगठन^
+||कॉम^
+||नेट^
+||닷컴^
+||닷넷^
+||คอม^
+! chinese characters
+||广东^
+||佛山^
+||在线^
+||中文网^
+||网址^
+||网站^
+||网络^
+||公司^
+||商城^
+||机构^
+||我爱你^
+||商标^
+||世界^
+||集团^
+||慈善^
+||八卦^
+||公益^
+||购物^
+||手机^
+||政府^
+! cyrillic characters
+||дети^
+||католик^
+||ком^
+||онлайн^
+||орг^
+||рус^
+||сайт^
+||москва^
+! japanese characters
+||みんな^
+||セール^
+||ファッション^
+||ストア^
+||ポイント^
+||ポイント^
+||コム^
