@@ -5,13 +5,13 @@
 ! Expires: undefined!
 !
 ! pinterest related websites
-! *pinterest*^
-! pinterest.*^
-! pinterestcareers.com^
-! pinterestmail.com^
+||pinterest.^
+||pinimg.com^
+||pin.it^
+||pinterestcareers.^
+||pinterestmail.^
 !
 ! shopping websites
-||temu.*^
 ||temu.^
-! alibaba.*^
-! alidnc.*^
+||alibaba.^
+||alidnc.^
