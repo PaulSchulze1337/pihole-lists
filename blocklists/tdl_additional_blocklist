@@ -1,12 +1,81 @@
 ! Title: Blocklist for suspicious TLDs (non country code TLDs)
 ! Description: Suspicious TLDs that are not used by the majority of users.
+               May have multiple false positives, use with caution.
 ! Syntax: AdBlock
 ! documentation for AdBlock: https://help.adblockplus.org/hc/en-us/articles/360062733293-How-to-write-filters
 ! Expires: undefined!
 ! see: https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
-||xxx^
-||webcam^
-||cam^
-||porn^
-||sex^
 ||adult^
+||autos^
+||best^
+||bet^
+||bid^
+||boats^
+||boston^
+||boutique^
+||cam^
+||casino^
+||charity^
+||christmas^
+||dance^
+||fishing^
+||gdn^
+||hair^
+||haus^
+||loan^
+||loans^
+||men^
+||mom^
+||name^
+||poker^
+||porn^
+||review^
+||rip^
+||sex^
+||shop^
+||skin^
+||support^
+||tattoo^
+||tokyo^
+||top^
+||voto^
+||webcam^
+||xxx^
+||.在线^
+||.中文网^
+||.网址^
+||.网站^
+||.网络^
+||.公司^
+||.商城^
+||.机构^
+||.我爱你^
+||.商标^
+||.世界^
+||.集团^
+||.慈善^
+||.八卦^
+||.公益^
+||.购物^
+||.手机^
+||.政府^
+||.дети
+||.католик
+||.ком
+||.онлайн
+||.орг
+||.рус
+||.сайт
+
+
+
+
+
+
+
+
+
+
+
+
+

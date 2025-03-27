@@ -8,7 +8,7 @@
 ! Rules for Top Level Domains
 @@||apple.com^$document
 @@||icloud.com^
-@@||mzstatic.com
+@@||mzstatic.com^
 ! Rules for device installation and activation
 @@||albert.apple.com^
 @@||captive.apple.com^
@@ -43,8 +43,8 @@
 @@||apple-mapkit.com^
 @@||icons.axm-usercontent-apple.com^
 ! rules for class room and school work
-@@||s.mzstatic.com
-@@||play.itunes.apple.com
+@@||s.mzstatic.com^
+@@||play.itunes.apple.com^
 ! rules for software updates
 @@||appldnld.apple.com^
 @@||configuration.apple.com^
