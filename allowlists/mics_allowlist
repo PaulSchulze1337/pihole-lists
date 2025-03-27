@@ -1,4 +1,4 @@
-! Title: Captive Portals Whitelist.
+! Title: Captive Portals AllowList.
 ! Description: Miscellaneous websites that should not be blocked, even if they are on a blacklist.
 ! Syntax: AdBlock
 ! documentation for AdBlock: https://adblockplus.org/filter-cheatsheet
