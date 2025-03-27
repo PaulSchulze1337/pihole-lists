@@ -22,6 +22,19 @@ Just a collection of useful lists for PiHole.
 ### Block lists for general use
 ```
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-only/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts
+
+https://raw.githubusercontent.com/FiltersHeroes/KADhosts/refs/heads/master/KADhosts.txt
+
+https://v.firebog.net/hosts/AdguardDNS.txt
+
+https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt
+
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
+
+https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt
+
 https://raw.githubusercontent.com/RPiList/specials/refs/heads/master/Blocklisten/Corona-Blocklist
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting1  
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting2  
@@ -40,11 +53,32 @@ https://raw.githubusercontent.com/RPiList/specials/refs/heads/master/Blocklisten
 https://raw.githubusercontent.com/RPiList/specials/refs/heads/master/Blocklisten/proxies
 https://raw.githubusercontent.com/RPiList/specials/refs/heads/master/Blocklisten/samsung
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
-https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/Commerzbank
+
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/Comdirect
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/Commerzbank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/Consorsbank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/DKB
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/Deka
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/DeutscheBank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/HamburgCommercialBank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/HelebaBank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/Hypovereinsbank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/ING
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/KFWBank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/LandesbankBadenWuerttemberg
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/NRWBank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/NorddeutscheLandesbank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/PSD-Bank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/Pfandbriefbank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/Postbank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/SantanderBank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/Sparda-Bank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/StaatsbankBadenWuerttemberg
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/Targobank
+https://github.com/RPiList/specials/raw/refs/heads/master/Blocklisten/DomainSquatting/DE/sonstige_Banken/VolkswagenBank
 
 https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/refs/heads/master/doh-domains.txt
 https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/refs/heads/master/doh-domains_abandoned.txt
-https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/refs/heads/master/doh-domains_overall.txt
 
 https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/master/abuse.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/master/ads.txt
@@ -89,6 +123,11 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.roku
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.vivo.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.oppo-realme.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt
+
+https://perflyst.github.io/PiHoleBlocklist/SmartTV.txt
+https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt
+https://perflyst.github.io/PiHoleBlocklist/SessionReplay.txt
+https://perflyst.github.io/PiHoleBlocklist/android-tracking.txt
 
 https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part1.txt
 https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part2.txt
