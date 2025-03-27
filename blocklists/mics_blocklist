@@ -11,6 +11,7 @@
 ! pinterestmail.com^
 !
 ! shopping websites
-! temu.*^
+||temu.*^
+||temu.^
 ! alibaba.*^
 ! alidnc.*^

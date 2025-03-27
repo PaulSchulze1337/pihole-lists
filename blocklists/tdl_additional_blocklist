@@ -6,7 +6,7 @@
 ! Expires: undefined!
 ! see: https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
 !
-! special-use domains
+! special-use domains (these are not used as TLD)
 ||example^
 ||corp^
 ||home^
@@ -35,6 +35,7 @@
 ||cam^
 ||casino^
 ||charity^
+||club^
 ||christmas^
 ||dance^
 ||fishing^

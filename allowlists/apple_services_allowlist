@@ -6,7 +6,7 @@
 ! Expires: undefined
 !
 ! Rules for Top Level Domains
-@@||apple.com^$document
+@@||apple.com^
 @@||icloud.com^
 @@||mzstatic.com^
 ! Rules for device installation and activation
