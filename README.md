@@ -35,6 +35,8 @@ https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
 
 https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt
 
+https://github.com/buckmelanoma/block_lists/blob/master/trump.txt
+
 https://raw.githubusercontent.com/RPiList/specials/refs/heads/master/Blocklisten/Corona-Blocklist
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting1  
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting2  
@@ -132,12 +134,7 @@ https://perflyst.github.io/PiHoleBlocklist/android-tracking.txt
 https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part1.txt
 https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part2.txt
 
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/abp_big.txt
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/dnsmasq_big.txt
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/dnsmasq2_big.txt
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild_big.txt
-https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild2_big.txt
+https://raw.githubusercontent.com/cbuijs/oisd/refs/heads/master/big/domains.adblock
 
 https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/refs/heads/main/blocklists/mics_blocklist
 https://raw.githubusercontent.com/PaulSchulze1337/pihole-lists/refs/heads/main/blocklists/tdl_short_blocklist
