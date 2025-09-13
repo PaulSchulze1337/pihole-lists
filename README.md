@@ -131,8 +131,11 @@ https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt
 https://perflyst.github.io/PiHoleBlocklist/SessionReplay.txt
 https://perflyst.github.io/PiHoleBlocklist/android-tracking.txt
 
-https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part1.txt
-https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/30-day/adblock/nrd-30day_adblock_part2.txt
+https://raw.githubusercontent.com/cenk/trcert-malware/refs/heads/main/trcert-domains.txt
+https://raw.githubusercontent.com/cenk/bad-hosts/refs/heads/main/bad-hosts-domains
+https://raw.githubusercontent.com/cenk/malware-domains/refs/heads/main/adblock
+
+https://raw.githubusercontent.com/cenk/nrd/refs/heads/main/nrd-last-60-days.txt
 
 https://raw.githubusercontent.com/cbuijs/oisd/refs/heads/master/big/domains.adblock
 
