@@ -35,7 +35,7 @@ https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
 
 https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt
 
-https://github.com/buckmelanoma/block_lists/blob/master/trump.txt
+https://raw.githubusercontent.com/buckmelanoma/block_lists/refs/heads/master/trump.txt
 
 https://raw.githubusercontent.com/RPiList/specials/refs/heads/master/Blocklisten/Corona-Blocklist
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting1  
