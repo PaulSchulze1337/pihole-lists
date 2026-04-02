@@ -25,6 +25,12 @@
 @@||vinted.de^
 @@||vinted.net^
 @@||shops.myshopify.com^
+@@||hoefer-shop.com^
+@@||gmpartscenter.net^
+@@||az-delivery.de^
+@@||marcuwekling.reimkultur-shop.de^
+@@||cdn.shopify.com^
+@@||myshopify.com^
 !
 ! google services
 @@||clients4.google.com^
@@ -37,6 +43,7 @@
 @@||dl.google.com^
 @@||redirector.gvt1.com^
 @@||scholar.google.com^
+@@||storage.googleapis.com^
 !
 ! youtube services
 @@||s.youtube.com^
@@ -90,5 +97,20 @@
 @@||steamcloud-eu-ams.storage.googleapis.com^
 ! Steam Workshop
 @@||steamcommunity.com^
+!
+! Payment-Services
+@@||t.paypal.com^
+!
+! Publisher
+@@||frontiersin.org^
+!
+! Development Related
+@@||cdn.plot.ly^
+@@||anaconda.org^
+@@||ck222s.bithal.de^
+@@||www.ssllabs.com^
 
-
+! Misc Sites
+@@||meshstack.de^
+@@||frontiersin.org^
+!
