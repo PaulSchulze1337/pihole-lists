@@ -31,6 +31,10 @@
 @@||marcuwekling.reimkultur-shop.de^
 @@||cdn.shopify.com^
 @@||myshopify.com^
+@@||cdn-reichelt.de^
+@@||gmpartsstore.com^
+@@||gmpartsdirect.com^
+@@||oempartsonline.com^
 !
 ! google services
 @@||clients4.google.com^
@@ -44,6 +48,9 @@
 @@||redirector.gvt1.com^
 @@||scholar.google.com^
 @@||storage.googleapis.com^
+!
+! amazon aws
+@@||eu-west-1.amazonaws.com
 !
 ! youtube services
 @@||s.youtube.com^
@@ -103,14 +110,17 @@
 !
 ! Publisher
 @@||frontiersin.org^
+@@||eprajournals.com^
 !
 ! Development Related
 @@||cdn.plot.ly^
 @@||anaconda.org^
 @@||ck222s.bithal.de^
 @@||www.ssllabs.com^
-
+!
 ! Misc Sites
 @@||meshstack.de^
 @@||frontiersin.org^
+@@||video.bsky.app^
+@@||cdn.bsky.app^
 !
