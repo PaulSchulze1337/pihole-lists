@@ -50,7 +50,7 @@
 @@||storage.googleapis.com^
 !
 ! amazon aws
-@@||eu-west-1.amazonaws.com
+@@||eu-west-1.amazonaws.com^
 !
 ! youtube services
 @@||s.youtube.com^
